@@ -55,8 +55,12 @@ public class TV {
 		return canal;
 	}
 	
-	public void setNumTV (int numTV) {
+	public static void setNumTV (int numTV) {
 		TV.numTV = numTV;
+	}
+	
+	public static int getNumTV () {
+		return numTV;
 	}
 	
 	public void turnOn () {
